@@ -1,3 +1,5 @@
+!#/usr/bin/python3
+
 # La funcion type devuelve el tipo de dato que le pasamos
 
 # Tipo "int"

@@ -1,3 +1,4 @@
+!#/usr/bin/python3
 # Ejercicio 1
 
 numero = int(input("Número: "))

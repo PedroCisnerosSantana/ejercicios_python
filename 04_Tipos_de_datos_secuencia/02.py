@@ -1,3 +1,4 @@
+!#/usr/bin/python3
 def ejercicio1():
     cadena = input("Cadena: ")
     caracter = input("Carácter: ")

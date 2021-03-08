@@ -1,3 +1,5 @@
+!#/usr/bin/python3
+
 edad = 23
 if edad >= 18:
    print('Es mayor de edad, a beber')
