@@ -19,13 +19,13 @@ class Notas():
 		if asig in self._notas.keys():
 			self._notas[asig]=nota
 		else:
-			raise ValueError("Asignatura incorrecta")
+			raise ValueError("Esa asignatura no existe colega")
 
 	def delnota(self,asig):
 		if asig in self._notas.keys():
 			del self._notas[asig]
 		else:
-			raise ValueError("Asignatura incorrecta")
+			raise ValueError("Esa asignatura no existe colega")
 
 	def media(self):
 		return sum(self._notas.values())/len(self._notas.values())

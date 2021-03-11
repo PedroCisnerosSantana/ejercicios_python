@@ -10,20 +10,20 @@ def ejercicio1():
         print(n)
         
 def ejercicio2():
-    lista=['Di', 'buen', 'dia', 'a', 'papa']
+    lista=['Di', 'queda', 'alcohol', 'en', 'casa']
     print(lista[::-1])
     
 def ejercicio3():
-    lista=['Di', 'buen', 'dia', 'a', 'papa',"hola","papa","buen","dia"]	
-    cadena = input("Cadena: ")
+    lista=['Di', 'queda', 'alcohol', 'en', 'casa',"queda","alcohol","en","casa"]	
+    cadena = input("Dime una palabrita: ")
     if cadena in lista:
-        print("La cadena está en la lista")
+        print("La palabra está en la lista")
     else:
-        print("La cadena no está en la lista")	
+        print("La palabra no está en la lista")	
 
     print(lista.count(cadena))	
 
-    cadena2 = input("Cadena a reemplazar: ")
+    cadena2 = input("Palabra a reemplazar: ")
     apariciones=lista.count(cadena)
     pos=0
     for i in range(0,apariciones):

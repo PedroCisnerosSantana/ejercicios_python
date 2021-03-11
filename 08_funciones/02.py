@@ -16,7 +16,7 @@ def calcular(*args):
 	elif len(args)==3:
 		return calcular_segundos(*args)
 	else:
-		raise TypeError("Se espera 1 o 3 parámetros")
+		raise TypeError("Pasame 1 o 3 parametros loco")
 
 def buscar(l_agenda,**kwargs):
     	lista_aciertos=[]
@@ -30,12 +30,10 @@ def buscar(l_agenda,**kwargs):
 	return lista_aciertos	
 
 def main():
-	...
-	
 	## Búsqueda
 	filtro={}
-	campo=input("Introuzca un campo para buscar:")
+	campo=input("Introuzca un campo para buscar: ")
 	while campo!="*":
-		filtro[campo]=input("Introuzca valor a buscar:")
-		campo=input("Introuzca otro campo a buscar:")
+		filtro[campo]=input("Introuzca valor a buscar: ")
+		campo=input("Introuzca otro campo a buscar: ")
 	print(buscar(agenda,**filtro))

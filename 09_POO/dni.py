@@ -18,7 +18,7 @@ class Dni():
 			self._numero = numero
 			self._letra = self.__calcular_letra()
 		else: 
-			raise ValueError("DNI incorecto")
+			raise ValueError("Este DNI no es valido amigo")
 
 
 	@property

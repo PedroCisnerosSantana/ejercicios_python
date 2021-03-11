@@ -22,7 +22,7 @@ codigo = {
 
 def ejercicio1():
     dict = {}
-    frase = input("Frase:")
+    frase = input("Frase: ")
     lista_palabras=frase.split(" ")
     for palabra in lista_palabras:
         if palabra in dict:
@@ -34,7 +34,7 @@ def ejercicio1():
         print (campo,"->",valor)
 
 def ejercicio2():
-    palabra = input("Palabra:")
+    palabra = input("Palabra: ")
     lista_codigos = []
     for caracter in palabra:
         if caracter.islower():
@@ -43,7 +43,7 @@ def ejercicio2():
     print(" ".join(lista_codigos))
 
 def ejercicio3():
-    morse=input("Morse:")
+    morse=input("Morse: ")
     lista_morse=morse.split(" ")
     palabra = ""
     for cod in lista_morse:
@@ -53,11 +53,11 @@ def ejercicio3():
 
 def ejercicio4():
     gustos={}
-    nombre = input("Nombre:")
+    nombre = input("Nombre: ")
     while nombre!="*":
-        gusto=input("Gusto:")
+        gusto=input("Gusto: ")
         lista_gustos=gustos.setdefault(nombre,[gusto])
         if lista_gustos!=[gusto]:
             gustos[nombre].append(gusto)
-        nombre = input("Nombre:")
+        nombre = input("Nombre: ")
     print(gustos)

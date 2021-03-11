@@ -17,13 +17,13 @@ print("El resultado es %d" % fact)
 
 # Ejercicio 3
 
-secret = int(input("Número secreto: "))
+secret = 5
 num = int(input("Número: "))
 while num!=secret:
     if num>secret:
-        print("El número es menor")
+        print("menos")
     else:
-        print("El número es mayor")
+        print("mas")
     num=int(input("Número: "))
 print ("Has acertado")
 
@@ -43,6 +43,6 @@ for cont in range(2,num):
         primo=False
         break
 if primo:
-    print("Es primo")
+    print("primo")
 else:
-    print("No es primo")
+    print("No primo")

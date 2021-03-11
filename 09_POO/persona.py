@@ -31,7 +31,7 @@ class Persona():
 		if edad>0:
 			self._edad=edad	
 		else:
-			raise ValueError("Edad incorrecta")
+			raise ValueError("Aún no has nacido o que?")
 
 	def __str__(self):
 		return self.dni.__str__()+" "+self.nombre+" ("+str(self.edad)+")"

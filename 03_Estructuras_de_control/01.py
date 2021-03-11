@@ -5,19 +5,19 @@ n1 = int(input("Número 1: "))
 n2 = int(input("Número 2: "))
 
 if n1+n2>0:
-    print("Suma positiva")
+    print("Mas que 0")
 elif n1+n2<0:
-    print("Suma negativa")
+    print("Menos que 0")
 else:
-    print("Suma es 0")
+    print("Es 0")
     
 # Ejercicio 2
 
 num = int(input("Número: "))        
 if num%2==0:
-    print("Número par")
+    print("par")
 else:
-    print("Número impar")
+    print("impar")
     
 # Ejercicio 3
 
@@ -50,7 +50,7 @@ else:
     
 # Ejercicio 6
 
-lt = input("lt: ")        
+lt = input("lt: ")     
 if lt.isupper():
     print("Mayuscula")
 else:

@@ -30,13 +30,13 @@ print("Resultado: Area=%.2f Perimetro=%.2f" % (pi*radio**2,2*pi*radio))
 
 # Ejercicio 4
 
-n1 = float(input("Primer numero: "))
-n2 = float(input("Segundo numero: "))
+n1 = float(input("Primer numerito: "))
+n2 = float(input("Segundo numerito: "))
 print("Suma:%d\nresta:%d\nmultiplicacion:%d\ndivision:%.2f"%(n1+n2,n1-n2,n1*n2,n1/n2))
 
 # Ejercicio 5
 
-word = input("Introduce la palabra: ")
+word = input("Introduce la palabra magica: ")
 print((word+" ")*1000)
 
 # Ejercicio 6

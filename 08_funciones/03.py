@@ -5,15 +5,15 @@ def guardar_agenda(l_agenda,**kwargs):
 
 def main():
 	agenda=[]
-	cantidad = int(input("¿Cuántos contactos vas a introducir?"))
+	cantidad = int(input("Cuanta gente vas a meter?: "))
 	for i in range(cantidad):
 		contacto={}
-		contacto["nombre"]=input("Indica el nombre:")
-		contacto["telefono"]=input("Indica el teléfono:")
-		campo=input("Introuzca otro campo:")
+		contacto["nombre"]=input("Dime el nombre: ")
+		contacto["telefono"]=input("Dime el teléfono: ")
+		campo=input("Dime otro campo: ")
 		while campo!="*":
-			contacto[campo]=input("Introuzca valor:")
-			campo=input("Introuzca otro campo:")
+			contacto[campo]=input("Dime un valor: ")
+			campo=input("Dime un campo:")
 		agenda=guardar_agenda(agenda,**contacto)
 	print(agenda)	
 
